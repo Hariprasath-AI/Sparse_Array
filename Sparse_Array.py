@@ -12,7 +12,7 @@ def matchingStrings(strings, queries):
         for j in range(0, len(strings)):
             if queries[i] == strings[j]:
                 count += 1
-        # Use print function at end of the 2nd for loop to gen count value of i'th query in the strings
+        # Use print function at end of the 2nd for loop to get count value of i'th query in the strings
         print(count)
 
 
